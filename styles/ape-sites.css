@@ -1,0 +1,15 @@
+.ape-sites-tag{
+    margin-top: 1rem;
+    width: 100%;
+    min-height: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+}
+
+.ape-sites-icon{
+    width: 2rem;
+}

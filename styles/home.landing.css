@@ -1,0 +1,104 @@
+.home-landing{
+    width: 100%;
+    min-height: 95vh;
+    background-color: aquamarine;
+    padding-top: 2rem;
+    background: linear-gradient(  #29072a, #683578, #683578, #683578,#683578, #a385ac, rgb(243, 243, 243));
+}
+.home-landing-inner{
+    position: relative;
+    width:95%;
+    min-height: 90vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    background-image:  url(../pictures/home-landing.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.landing-taglines{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(192, 229, 44, 0.3);
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: calc(18%);
+    right: 50%;
+    z-index: 1;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+}
+.landing-taglines h1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 45px;
+}
+.landing-taglines p{
+    margin-top: 0;
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.home-button{
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 1px rgb(145, 222, 28);
+    background-color: rgb(220, 15, 15);
+    color: white;
+}
+.home-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.home-filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 136, 174, 0.6);
+    position: absolute;
+}
+
+@media (max-width: 1140px) {
+ .landing-taglines h1{
+    font-size: 38px;
+ }      
+}
+
+@media (max-width: 960px) {
+ .landing-taglines h1{
+    font-size: 30px;
+ }      
+}
+
+@media (max-width: 765px) {
+ .landing-taglines h1{
+    font-size: 23px;
+    text-align: center;
+ }
+ .landing-taglines p{
+    font-size: 17px;
+    text-align: center;
+ }      
+ .landing-taglines{
+    width: 95%;
+    left: 10px;
+ }
+}
+
+@media (max-width: 450pxpx) {
+ .landing-taglines h1{
+    font-size: 18px;
+ }    
+ .landing-taglines p{
+    font-size: 14;
+ }  
+}
