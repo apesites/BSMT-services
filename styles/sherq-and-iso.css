@@ -175,7 +175,7 @@ body{
 }
 @media (max-width: 1192px) {
     .second-special-link{
-        padding-bottom: 22px;
+        padding-bottom: 0px;
     }
 }
 @media (max-width: 850px) {
@@ -187,7 +187,7 @@ body{
 }
 @media (max-width: 672px) {
     .second-special-link{
-        padding-bottom: 44px;
+        padding-bottom: 4px;
     }
 }
 @media (max-width: 602px) {
@@ -219,7 +219,7 @@ body{
 }
 @media (max-width: 502px) {
     .second-special-link{
-        padding-bottom: 78px;
+        padding-bottom: 20px;
     }
 }
 
@@ -238,7 +238,7 @@ body{
         padding-left: 2rem;
     }
     .second-special-link{
-        padding-bottom: 48px;
+        padding-bottom: 0px;
     }
     .technicals-sec {
          grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -252,5 +252,11 @@ body{
         padding-top: 0;
         padding-bottom: 1rem;
         font-size: 18px;
+    }
+
+}
+@media (max-width: 371px) {
+    .second-special-link{
+        padding-bottom: 20px;
     }
 }
