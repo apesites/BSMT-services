@@ -33,14 +33,14 @@ body{
 
 }
 .environment-icon-con{
-    height: 3rem;
+    height: 4rem;
 }
 .environment-icon{
-    width: 3rem;
+    width: 4rem;
     height: 100%;
     background-color: rgb(249, 217, 217);
     margin-left: 10px;
-    border-radius: 23px;
+    border-radius: 2rem;
     overflow: hidden;
 }
 .environment-desc{
@@ -139,4 +139,5 @@ body{
     .environment-header{
         width: 90%;
     }
+
 }
